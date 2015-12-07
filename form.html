@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="form/css/style.css"/>
+	</head>
+	<body>
+		<form class="video-edit">
+			<div class="form-row">
+	            <label for="user-name" class="label-text">Введіть ім'я</label>
+	            <input type="text" name="name" id="user-name" placeholder="Ваше ім'я"/>
+	        </div>
+	        <div class="form-row">
+	            <label for="password" class="label-text">Ваш Пароль</label>
+	            <input type="password" name="psw" id="password" placeholder="Пароль"/>
+	        </div>
+	        <div class="form-row">
+	            <label for="e-mail" class="label-text">Ваша електронна адреса</label>
+	            <input type="email" name="email" id="e-mail" placeholder="Ваш e-mail"/>
+	        </div>
+	        <div class="form-row">
+	            <label for="address" class="label-text">Ваша домашня адреса</label>
+	            <input type="text" name="address" id="address" placeholder="Ваша адреса"/>
+	        </div>
+	        <div class="form-row">
+	            <label for="date" class="label-text">Введіть дату</label>
+	            <input type="date" name="date" id="date" min="2015-12-10" max="2015-12-31"/>
+	        </div>
+	        <div class="form-row">
+	            <label for="time" class="label-text">Введіть зручний час</label>
+	            <input type="time" name="time" id="time"/>
+	        </div>
+	        <div class="form-row">
+	            <label for="fav-color" class="label-text">Виберіть колір</label>
+	            <input type="color" name="color" id="fav-color" value="#ff0000"/>
+	        </div>
+	        <div class="form-row">
+		        <label for="area" class="label-text">Ваші вподобання</label>
+				<textarea name="message" rows="10" cols="100" id="area" placeholder="Ваші вподобання"></textarea>
+			</div>
+			<div class="form-row">
+		        <select name="cars">
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="bmw">BMW</option>
+					<option value="audi">Audi</option>
+					<option value="daewoo">Daewoo</option>
+					<option value="volvo">Mersedes</option>
+					<option value="saab">Mitsubishi</option>
+					<option value="bmw">Lada</option>
+					<option value="audi" selected>Mazda</option>
+					<option value="daewoo">Lexus</option>
+				</select>
+			</div>
+			<div class="form-row">
+	            <input type="checkbox" name="vehicle" value="bike">
+				Я маю велосипед
+	        </div>
+	        <div class="form-row">
+	            <input type="checkbox" name="vehicle" value="car">
+				Я маю автомобіль
+	        </div>
+
+	        <div class="form-row">
+	            <input type="radio" name="sex" value="male" checked/>
+				Чоловік
+	        </div>
+	        <div class="form-row">
+	            <input type="radio" name="sex" value="female"/>
+				Жінка
+	        </div>
+			<div class="form-row">
+	            <input type="reset" value="Скинути"/>
+	        </div>
+	        <div class="form-row">
+	            <input type="submit" value="Відправити"/>
+	        </div>
+    </form>
+</body>
+</html>
